@@ -1,8 +1,6 @@
-const raining = false;
+const isCitizen = true;
+const age = 26;
 
-
-if (raining) {
-	console.log("Don't forget your umbrella!");
-} else {
-	console.log("The weather outside is frightful");
+if (isCitizen && age > 18) {
+	console.log("You are eligible to vote.");
 }
